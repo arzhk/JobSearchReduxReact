@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <Navbar expand="xl" id="main-nav">
-      <div className="d-flex align-items-center mx-4  logo-container">
-        <i className="fab fa-dev mr-2"></i>
-        <p className="mb-0 font-weight-bold">_DevSearch</p>
-      </div>
+    <Navbar expand="xl" id="main-nav" className="mt-3">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mx-auto">
+          <div className="d-flex align-items-center mx-4  logo-container">
+            <i className="fab fa-dev mr-2"></i>
+            <p className="mb-0 font-weight-bold">_DevSearch</p>
+          </div>
           <Link to="/">Home</Link>
           <Link to="#">Jobs</Link>
           <Link to="#">Courses</Link>

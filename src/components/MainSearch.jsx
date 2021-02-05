@@ -63,13 +63,13 @@ function MainSearch(props) {
   }, []);
 
   return (
-    <Container className="mt-5">
-      <div id="main-banner" className="mb-4">
+    <Container className="mt-4">
+      <div id="main-banner" className="mb-5">
         <div className="banner-img"></div>
         <div className="banner-text-wrap">
           <h2 className="banner-text light-text font-weight-bold mb-2">Welcome to _DevSearch</h2>
           <h5 className="banner-text-small dark-background light-text">
-            Helping you to take the next step in your journey.
+            Helping you to find the next step in your journey.
           </h5>
         </div>
       </div>
@@ -99,7 +99,7 @@ function MainSearch(props) {
             />
           </Col>
           <Col xs={4} lg={2}>
-            <Button className="search-btn" onClick={searchHandler}>
+            <Button className="search-btn mt-3" onClick={searchHandler}>
               Search Jobs
             </Button>
           </Col>
